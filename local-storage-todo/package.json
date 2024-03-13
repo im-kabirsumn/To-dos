@@ -4,12 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "postcss src/index.css -o main.css -w"
+    "dev": "postcss src/index.css -o style.css -w"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "autoprefixer": "^10.4.18",
     "postcss": "^8.4.35",
     "postcss-cli": "^11.0.0",

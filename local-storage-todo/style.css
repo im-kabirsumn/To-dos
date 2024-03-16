@@ -614,11 +614,17 @@ video {
 .w-2 {
   width: 0.5rem;
 }
+.w-2\/5 {
+  width: 40%;
+}
+.w-4\/5 {
+  width: 80%;
+}
 .w-full {
   width: 100%;
 }
-.w-2\/5 {
-  width: 40%;
+.w-4 {
+  width: 1rem;
 }
 .max-w-sm {
   max-width: 24rem;
@@ -810,6 +816,10 @@ video {
 .text-center {
   text-align: center;
 }
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
@@ -825,10 +835,6 @@ video {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
-}
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
 }
 .text-xl {
   font-size: 1.25rem;
